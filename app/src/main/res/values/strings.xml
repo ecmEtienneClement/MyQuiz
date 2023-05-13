@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ECM_FANTÔME_TCS2</string>
+    <string name="question">...</string>
+    <string name="reponse1">...</string>
+    <string name="reponse2">...</string>
+    <string name="reponse3">...</string>
+    <string name="reponse4">...</string>
+    <string name="reponse5">...</string>
+    <string name="html_5">HTML 5</string>
+    <string name="css_3">CSS 3</string>
+    <string name="javascript_2">JAVASCRIPT 2</string>
+    <string name="xml">XML</string>
+    <string name="c">C</string>
+    <string name="retour">RETOUR</string>
+    <string name="test_de_connaissance_n_1">TEST DE CONNAISSANCE N°1</string>
+    <string name="test_de_connaissance_n_2">TEST DE CONNAISSANCE N°2</string>
+    <string name="test_de_connaissance_n_3">TEST DE CONNAISSANCE N°3</string>
+    <string name="test_de_connaissance_n_4">TEST DE CONNAISSANCE N°4</string>
+    <string name="test_de_connaissance_n_5">TEST DE CONNAISSANCE N°5</string>
+    <string name="ecm">ECM…</string>
+    <string name="ecm_fant_me_js2">ECM-FANTÔME /JS2</string>
+
+    <string name="menu">MENU</string>
+    <string name="ecm_fant_me_html5">ECM-FANTÔME /HTML5</string>
+    <string name="ecm_fant_me_css3">ECM-FANTÔME /CSS3</string>
+    <string name="ecm_fant_me_xml">ECM-FANTÔME /XML</string>
+    <string name="ecm_fant_me_c">ECM-FANTÔME /C</string>
+    <string name="algo">ALGO</string>
+    <string name="ecm_fant_me_algo">ECM-FANTÔME /ALGO</string>
+    <string name="link"></string>
+    <string name="cliquer_ici_pour_voir_les_cours"><a href='https://drive.google.com/drive/folders/1eqm4P0mX74l45PjYkcLnWLyhGqvXR3_R?usp=sharing'> Cliquer ici pour voir les cours </a></string>
+    <string name="service_central_d_authentification"><a href='https://cas1.uvs.sn/cas/login?service=https%3A%2F%2Ft4h778sa6i9v.uvs.sn%2Flogin%2Findex.phpgateway=true'>Service Central D\'authentification</a></string>
+    <string name="uvs_portail"><a href='https://portail.uvs.sn/index.php?p=nouveaux-bacheliers'>UVS_Portail</a></string>
+    <string name="merci_de_laisser_votre_commentaire"><a href='https://docs.google.com/forms/d/e/1FAIpQLSeYZ769J2Y6n9a1RcCRQDqGADFx1v48v1uajyYozON7B4W4Pg/viewform?usp=sf_link'>Merci de laisser votre commentaire ...</a></string>
+
+</resources>

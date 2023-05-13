@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+
+    tools:context=".Vue.ACCEUILLE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fdecran"
+
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="85dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/arrondi_bouton"
+
+            android:gravity="center|center_vertical"
+            android:stateListAnimator="@null"
+            android:text="ECM-FANTÔME"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+
+            android:id="@+id/algotc1"
+            style="@style/testeStyle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/arrondi_bouton"
+            android:elevation="50dp"
+            android:onClick="page_commencer"
+            android:stateListAnimator="@null"
+            android:text="Commencer"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"></Button>
+
+
+        <Button
+
+            android:id="@+id/mescours"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/arrondi_bouton"
+            android:elevation="50px"
+            android:onClick="page_commencer"
+            android:stateListAnimator="@null"
+            android:text="Mes_Cours"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/algotc2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="25sp"
+            android:text="règle"
+            android:elevation="50dp"
+            android:stateListAnimator="@null"
+            android:textSize="18sp"
+            android:onClick="regle"
+            android:textStyle="bold|italic"
+            app:backgroundTint="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/xmltc3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/arrondi_bouton"
+            android:onClick="info"
+            android:stateListAnimator="@null"
+            android:text="a propos"
+            android:elevation="50dp"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:backgroundTint="@color/cardview_dark_background" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

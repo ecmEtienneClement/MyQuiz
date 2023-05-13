@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vue.MENU">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fdecran"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:background="@drawable/arrondi_bouton"
+
+            android:gravity="center|center_vertical"
+            android:stateListAnimator="@null"
+            android:text="ECM-FANTÔME"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60sp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/html5"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:layout_weight="0"
+                    android:cursorVisible="false"
+                    android:drawingCacheQuality="auto"
+                    android:elevation="50dp"
+
+                    android:stateListAnimator="@null"
+                    android:text="@string/html_5"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:backgroundTint="@color/cardview_dark_background"
+                    app:iconTintMode="multiply" />
+
+                <Button
+                    android:id="@+id/css3"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:layout_weight="0"
+                    android:elevation="50dp"
+                    android:stateListAnimator="@null"
+                    android:text="@string/css_3"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:backgroundTint="@color/cardview_dark_background" />
+
+                <Button
+                    android:id="@+id/js"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:layout_weight="0"
+                    android:elevation="50dp"
+                    android:stateListAnimator="@null"
+                    android:text="@string/javascript_2"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:backgroundTint="@color/cardview_dark_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="60sp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/xml"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:elevation="50dp"
+                    android:stateListAnimator="@null"
+                    android:text="@string/xml"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:backgroundTint="@color/cardview_dark_background" />
+
+                <Button
+                    android:id="@+id/c"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:elevation="50dp"
+                    android:stateListAnimator="@null"
+                    android:text="@string/c"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:backgroundTint="@color/cardview_dark_background" />
+
+                <Button
+                    android:id="@+id/algo"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50sp"
+                    android:elevation="50dp"
+                    android:stateListAnimator="@null"
+                    android:text="@string/algo"
+                    android:textSize="18sp"
+                    android:textStyle="bold|italic"
+                    app:backgroundTint="@color/cardview_dark_background" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/retour"
+                android:layout_width="170sp"
+                android:layout_height="wrap_content"
+                android:elevation="50dp"
+                android:stateListAnimator="@null"
+                android:text="@string/retour"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                app:backgroundTint="@color/cardview_dark_background" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
